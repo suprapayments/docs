@@ -25,7 +25,6 @@
     "name": "Dashboard",
     "url": "https://app.suprapayments.io"
   },
-  "//": "Tabs is a really useful feature, lets you have a new section for your docs basically",
   "tabs": [],
   "anchors": [
     {
