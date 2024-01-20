@@ -11,8 +11,8 @@
     "light": "#0070f3",
     "dark": "#0070f3",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#014491",
+      "to": "#014491"
     }
   },
   "topbarLinks": [
@@ -51,13 +51,20 @@
     {
       "group": "Products",
       "pages": [
-        "products/markdown",
-        "products/code",
+        "products/adding_new_products",
         "products/images",
         "products/settings",
         "products/navigation",
         "products/reusable-snippets"
       ]
+    },
+    {
+      "group": "Checkout Links",
+      "pages": ["checkout_links/native_tokens"]
+    },
+    {
+      "group": "Payments",
+      "pages": ["payments/page"]
     }
   ],
   "footerSocials": {
