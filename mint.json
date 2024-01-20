@@ -34,8 +34,8 @@
     },
     {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "icon": "discord",
+      "url": "https://discord.gg/3MawVjc8"
     },
     {
       "name": "Blog",
@@ -62,6 +62,7 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/suprapayments",
+    "discord": "https://discord.gg/3MawVjc8",
     "github": "https://github.com/suprapayments"
   }
 }
