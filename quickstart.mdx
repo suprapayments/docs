@@ -1,31 +1,37 @@
 ---
 title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+description: 'Learn how to set up your merchant account in under 5 minutes.'
 ---
 
-# Setup your Merchant Account
+# The Organization Settings Page
 
-Learn how to update your merchant account and add all information needed to start selling products. Test2
+The Organization settings page can be reached by clicking the 'Settings' link in the dashboard's sidebar.
 
-### Edit basic Organization Information
+When you first visit the settings page, it should look similar to the following screenshot.
+![](/images/organization_settings_1.png)
 
-<AccordionGroup>
-  <Accordion icon='github' title='Clone your docs locally'>
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
-  </Accordion>
-  <Accordion icon='rectangle-terminal' title='Preview changes'>
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
-  </Accordion>
-</AccordionGroup>
+To make the account information editable, click the `Edit` button at the top right of the page. Once you have done so, you will be able to start editing the information on this page.
+![](/images/organization_settings_2.png)
 
+To update the name, simply type a name that is fitting for your Organization. For our demo example, we will pretend our Organization is called "Rocket Labs".
 
+To edit the Logo used for the organization, click the `Change` button and select a file for the image you would like to use.
+
+![](/images/organization_settings_3.png)
+
+Once these changes have been made, click `Save` to update your account.
+![](/images/organization_settings_4.png)
+
+# Cardano Withdrawal Addresses
+
+## Mainnet Withdrawal Address
+
+This is the mainnet Cardano address, where you would like funds to be sent when customers pay for an item. These are standard addresses on the Cardano network, and they must always begin with `addr1` followed by the remainder of the address.
+
+## Testnet Withdrawal Address
+
+Adding a testnet address could be useful, as this allows you to test the account and test the checkout pages without risking any real (mainnet) tokens.
+
+Supra uses the preproduction network for testnet transactions.
+
+Preproduction network addresses will always begin with `addr_test1`. It is not necessary to add a testnet address to use your Supra account.

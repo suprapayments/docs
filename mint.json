@@ -36,11 +36,6 @@
       "name": "Community",
       "icon": "discord",
       "url": "https://discord.gg/3MawVjc8"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
@@ -50,13 +45,7 @@
     },
     {
       "group": "Products",
-      "pages": [
-        "products/adding_new_products",
-        "products/images",
-        "products/settings",
-        "products/navigation",
-        "products/reusable-snippets"
-      ]
+      "pages": ["products/adding_new_products"]
     },
     {
       "group": "Checkout Links",
