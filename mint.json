@@ -61,7 +61,7 @@
     },
     {
       "group": "Environments",
-      "pages": ["environments/testnet_wallets"]
+      "pages": ["environments/environments", "environments/testnet_wallets"]
     }
   ],
   "footerSocials": {
