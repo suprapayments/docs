@@ -41,7 +41,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart"]
     },
     {
       "group": "Products",
@@ -49,11 +49,19 @@
     },
     {
       "group": "Checkout Links",
-      "pages": ["checkout_links/native_tokens"]
+      "pages": [
+        "checkout_links/creating_checkout_links",
+        "checkout_links/checkout_process",
+        "checkout_links/native_tokens"
+      ]
     },
     {
       "group": "Payments",
       "pages": ["payments/page"]
+    },
+    {
+      "group": "Environments",
+      "pages": ["environments/testnet_wallets"]
     }
   ],
   "footerSocials": {

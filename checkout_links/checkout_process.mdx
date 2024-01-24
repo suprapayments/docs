@@ -1,0 +1,43 @@
+---
+title: 'The Checkout Process'
+description: 'Discover what Checkout Links are and how they are used by Customers'
+icon: 'cart-shopping'
+---
+
+This page describes the checkout process that customers go through when buying a product. It is a good idea for sellers to become familiar with the checkout process.
+
+<Note>
+  If you want to try out the checkout process without setting up your own
+  product, you can follow along on the Cardano testnet with [this example
+  product](https://checkout.suprapayments.io/bd130a1e-c700-4ba8-a10b-5f0bf1203261)
+  we have created.
+</Note>
+
+# Connecting a Wallet
+
+The first step for a user is to connect the browser wallet. Almost well-known browser wallets are compatible.
+
+![](/checkout_links/images/checkout_process_1.webp)
+
+Clicking "Connect" reveals a dropdown with the available wallet options.
+
+![](/checkout_links/images/checkout_process_2.webp)
+
+Once the visitor has connected their wallet, they will see the next screen.
+
+# Pay with ADA
+
+The next screen prompts the user to click a button which registers the interaction with Supra and causes us to initialise the transaction. All Supra transactions are multi-signature (meaning both we and the customer must sign the transaction) as this is a security best-practice.
+
+![](/checkout_links/images/checkout_process_3.png)
+
+Once the transaction has been created, the wallet prompts the user to sign and confirm the transaction.
+
+![](/checkout_links/images/checkout_process_4.png)
+
+# Thank-you Screen/Redirect
+
+The final step of the checkout process shows a thank you screen.
+If a redirect step was set up, a brief timer will show before directing the user to the redirect page.
+
+![](/checkout_links/images/checkout_process_5.png)
